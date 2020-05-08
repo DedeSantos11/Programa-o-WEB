@@ -1,0 +1,35 @@
+Atividade Web
+<html>
+	<head>
+		<title>Programação WEB</title>
+		<meta charset="utf-8">
+		</head>
+		<body>
+			<h1 align="center">ENTRE EM CONTATO CONOSCO</h1>
+			
+				<h2>Outros canais de atendimento</h2>
+				<a href="Horário de Funcionamento" target="black">
+				<li><img src="http://icons.iconarchive.com/icons/lgp85/blue-crystal/48/EMail-icon.png">E-mail:</li>
+				<li><img src="http://icons.iconarchive.com/icons/graphicloads/android-settings/32/fone-icon.png">Fones:</li>
+				<li><img src="http://icons.iconarchive.com/icons/martz90/hex/48/whatsapp-icon.png">Whatsapp:</li>
+				
+				
+				<br></br>
+				
+		   
+		   <!--Formulario de Cadastro-->
+		     <form name="form_cadastro">
+			     <label for="nome">NOME:</label><br>
+				 <input type="text" name="nome" id="nome"
+				 size="50" required /><br>
+				 <label for="endereço">ENDEREÇO:</label><br>
+				 <input type="endereço" name="endereço" id="endereço"
+				 size="50" required /><br>
+				 <label for="email">E-MAIL:</label><br>
+				 <input type="email" name="email" id="email"
+				 size="50" required /><br>
+				  <label for="fone">FONE:</label><br>
+				 <input type="fone" name="fone" id="fone"
+				 size="50" required /><br>
+				 <input type="submit" value="Enviar">
+				<input type="reset" value="Limpar">
